@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto de Alberto Júnior">
+    <title>Contacto | Alberto Júnior</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+
+<header class="cabecalho">
+    <nav class="navegacao">
+        <a href="index.html" class="logo">AJ.</a>
+
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="contact.html" class="ativo">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="pagina-topo">
+    <p class="subtitulo">CONTACTO</p>
+    <h1>Vamos conversar</h1>
+    <p>
+        Para entrar em contacto comigo, utilize uma das opções abaixo
+        ou preencha o formulário.
+    </p>
+</section>
+
+<section class="secao">
+
+    <div class="contacto-grid">
+
+        <div class="contacto-info">
+
+            <article class="contacto-item">
+                <span>📧</span>
+                <div>
+                    <h3>Email</h3>
+                    <p>albertojuniormassada@gmail.com</p>
+                </div>
+            </article>
+
+            <article class="contacto-item">
+                <span>📱</span>
+                <div>
+                    <h3>Telefone</h3>
+                    <p>+258 87 883 1833</p>
+                </div>
+            </article>
+
+            <article class="contacto-item">
+                <span>📸</span>
+                <div>
+                    <h3>Instagram</h3>
+                    <p>@junior_fernando87</p>
+                </div>
+            </article>
+
+        </div>
+
+        <form class="formulario" action="#" method="post">
+
+            <div class="campo">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome"
+                       placeholder="Digite o seu nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                       placeholder="exemplo@email.com" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone"
+                       placeholder="+258 8X XXX XXXX">
+            </div>
+
+            <div class="campo">
+                <label for="data">Data</label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <div class="campo">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" name="idade"
+                       min="1" max="120" placeholder="Idade">
+            </div>
+
+            <div class="campo">
+                <label for="assunto">Assunto</label>
+
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="academico">Assunto académico</option>
+                    <option value="profissional">Assunto profissional</option>
+                    <option value="projeto">Projeto</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+
+            <fieldset class="campo">
+                <legend>Tipo de contacto</legend>
+
+                <label class="radio">
+                    <input type="radio" name="tipo" value="informacao" required>
+                    Informação
+                </label>
+
+                <label class="radio">
+                    <input type="radio" name="tipo" value="proposta">
+                    Proposta
+                </label>
+
+                <label class="radio">
+                    <input type="radio" name="tipo" value="outro">
+                    Outro
+                </label>
+            </fieldset>
+
+            <div class="campo campo-completo">
+                <label for="mensagem">Mensagem</label>
+
+                <textarea id="mensagem" name="mensagem"
+                          rows="6"
+                          placeholder="Escreva a sua mensagem..."
+                          required></textarea>
+            </div>
+
+            <div class="campo campo-completo">
+                <label for="ficheiro">Anexo (opcional)</label>
+                <input type="file" id="ficheiro" name="ficheiro">
+            </div>
+
+            <label class="checkbox campo-completo">
+                <input type="checkbox" name="aceito" required>
+                Confirmo que as informações preenchidas estão corretas.
+            </label>
+
+            <button type="submit" class="botao">
+                Enviar mensagem
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer class="rodape">
+    <div>
+        <h3>Alberto Júnior</h3>
+        <p>Estudante de Informática | Desenvolvedor Web em formação</p>
+    </div>
+
+    <div>
+        <p>Email: albertojuniormassada@gmail.com</p>
+        <p>Telefone: +258 87 883 1833</p>
+    </div>
+
+    <p class="copyright">
+        © 2026 Alberto Massada Fernando Júnior.
+    </p>
+</footer>
+
+</body>
+</html>
