@@ -14,7 +14,7 @@ Bem-vindo ao meu site de currículo pessoal! Este projeto foi desenvolvido para 
 - **Hobbies:** Áreas de interesse e atividades extracurriculares.
 - **Contacto:** Formulário interativo e informações de contato (email, telefone, redes sociais).
 
-## 📂 Estrutura de ## 📂 Estrutura de Pastas
+# 📂 Estrutura de Pastas
 
 ```text
 ├── index.html          # Página inicial
